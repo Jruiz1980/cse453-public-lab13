@@ -8,7 +8,6 @@
 #    cipher.
 ########################################################################
 
-import example
 import cipher
 
 #############################################################
@@ -57,7 +56,7 @@ def get_report(cipher):
 #####################################################################
 def main():
 
-    the_cipher = example.Example() # TODO: replace with your cipher class
+    the_cipher = cipher.Cipher()
 
     get_report(the_cipher)  # generate the report
 
