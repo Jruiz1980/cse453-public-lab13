@@ -23,7 +23,7 @@ def get_report(cipher):
     # get the password
     password = input("Please enter the password: ")
     if password == "":
-        password = "P@55w0rd!"
+        password = "P@55w0rd!~"
         print(f"Default password: {password}") 
 
     encrypted = cipher.encrypt(plaintext, password)
